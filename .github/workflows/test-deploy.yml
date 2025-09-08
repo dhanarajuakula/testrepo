@@ -1,4 +1,4 @@
 on:
   push:
     branches:
-      - dev123
+      - dev12
