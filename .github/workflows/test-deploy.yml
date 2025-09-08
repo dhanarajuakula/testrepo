@@ -4,13 +4,14 @@ on:
   push:   # runs whenever you push to any branch
     branches:
       - dev123
+      - main
       
 
-#jobs:
- # hello:
-  #  runs-on: ubuntu-latest
+jobs:
+  hello:
+    runs-on: ubuntu-latest
 
- #   steps:
-   #   - name: Say Hello
-   #     run: echo "Hello World from GitHub Actions 🚀"
+    steps:
+      - name: Say Hello
+        run: echo "Hello World from GitHub Actions 🚀"
 
